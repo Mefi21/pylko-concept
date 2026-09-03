@@ -4,7 +4,7 @@ A two-page website concept for the Pylko café, focused on its coffee-and-pyshki
 
 ## Demo
 
-No hosted demo is currently available. The project runs locally as a static website.
+https://pylko-concept.netlify.app/
 
 ## About
 
@@ -13,6 +13,7 @@ The concept translates the venue's visual character into a compact web experienc
 ## Features
 
 - Responsive home and menu pages
+- Mobile, tablet, and desktop layouts
 - Image-led editorial layout
 - Shared navigation and visual system
 - Café story, atmosphere, menu, and visit sections
@@ -47,4 +48,3 @@ Open http://localhost:8080. You can also open `index.html` directly in a browser
 ## Status
 
 Portfolio concept project.
-

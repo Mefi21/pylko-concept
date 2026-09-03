@@ -116,8 +116,10 @@ h1{
 .menu-intro .mini{font-size:13px; letter-spacing:.12em; text-transform:uppercase; font-weight:900; opacity:.78}
 .menu-intro .logo{font-size:58px; font-weight:950; letter-spacing:-.06em; text-transform:uppercase}
 .menu-intro .tag{font-size:44px; line-height:.92; letter-spacing:-.06em; font-weight:950; text-transform:uppercase}
-.poster-box{background:#fff; border-radius:24px; overflow:hidden; display:flex; align-items:center; min-height:0}
-.poster-box img{width:100%; height:auto; object-fit:contain; aspect-ratio:16/9}
+.poster-preview{align-self:start; min-width:0}
+.poster-box{display:block; overflow:hidden; height:auto; min-height:0; border-radius:24px}
+.poster-box img{display:block; width:100%; height:auto}
+.poster-mobile, .poster-hint{display:none}
 .menu-grid{display:grid; grid-template-columns:repeat(3,1fr); gap:18px; margin-top:18px}
 .menu-col{background:#fffaf2; border-radius:22px; padding:24px}
 .menu-col h3{margin:0 0 14px; font-size:36px; line-height:.94; letter-spacing:-.05em; font-weight:950; text-transform:uppercase}
@@ -179,6 +181,10 @@ h1{
   .menu-intro{min-height:300px; padding:22px}
   .menu-intro .logo{font-size:clamp(46px, 15vw, 58px)}
   .menu-intro .tag{font-size:clamp(31px, 10vw, 42px); overflow-wrap:anywhere}
+  .poster-full{display:none}
+  .poster-mobile{display:flex; flex-direction:column; gap:10px}
+  .poster-mobile img{width:100%; height:auto; border-radius:20px}
+  .poster-hint{display:block; margin:8px 0 0; color:var(--muted); font-size:13px; text-align:center}
   .menu-col{padding:20px}
   .menu-col h3{font-size:clamp(30px, 9vw, 36px)}
   .item{gap:12px}
